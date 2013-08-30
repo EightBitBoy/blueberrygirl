@@ -7,6 +7,9 @@
 class MainWindow : public QMainWindow{
 	public:
 		MainWindow(QWidget *parent = nullptr);
+
+	private:
+		void addWidgets();
 };
 
 #endif // MAINWINDOW_H
